@@ -1,0 +1,48 @@
+{
+  ConstraintSets: {
+    start: {
+      collapsed_card: {
+        width: 'spread',
+        height: 56,
+        start: ['parent', 'start'],
+        end: ['parent', 'end'],
+        top: ['parent','top'],
+        bottom: ['parent','bottom'],
+        visibility : 'visible',
+
+      },
+      expanded_card : {
+          width: 'spread',
+          height: 'spread',
+          start: ['parent', 'start'],
+          end: ['parent', 'end'],
+          top: ['parent','top'],
+          bottom: ['parent','bottom'],
+          visibility : 'gone'
+      }
+    },
+    end: {
+      collapsed_card: {
+           width: 'spread',
+           height: 'spread',
+           start: ['parent', 'start'],
+           end: ['parent', 'end'],
+           top: ['parent','top'],
+           bottom: ['parent','bottom'],
+           visibility : 'gone'
+
+      }
+       expanded_card : {
+            width: 'spread',
+            height: 250,
+            start: ['parent', 'start'],
+            end: ['parent', 'end'],
+            top: ['parent','top'],
+            bottom: ['parent','bottom'],
+            visibility : 'visible'
+       }
+    }
+  }
+
+}
+
